@@ -170,6 +170,15 @@
             border: 2px solid #c8e6c9;
         }
 
+        .example-image {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 2px solid #c8e6c9;
+        }
+
         .example-placeholder {
             width: 100%;
             height: 100px;
@@ -359,19 +368,23 @@
                     <h3 class="examples-title">📸 Example Photos for Dirtiness Check:</h3>
                     <div class="examples-grid">
                         <div class="example-item">
-                            <div class="example-placeholder">Front view</div>
+                            <img src="examples/dirtiness/front.jpg" alt="Front view example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Front view</div>
                             <div class="example-label">Front of car</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Side view</div>
+                            <img src="examples/dirtiness/side.jpg" alt="Side view example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Side view</div>
                             <div class="example-label">Side panels</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Rear view</div>
+                            <img src="examples/dirtiness/rear.jpg" alt="Rear view example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Rear view</div>
                             <div class="example-label">Back of car</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Interior</div>
+                            <img src="examples/dirtiness/interior.jpg" alt="Interior view example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Interior</div>
                             <div class="example-label">Interior view</div>
                         </div>
                     </div>
@@ -392,35 +405,43 @@
                     <h3 class="examples-title">📸 Example Photos for Condition Check:</h3>
                     <div class="examples-grid">
                         <div class="example-item">
-                            <div class="example-placeholder">Front left</div>
+                            <img src="examples/condition/front_left.jpg" alt="Front left example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Front left</div>
                             <div class="example-label">Front left area</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Front right</div>
+                            <img src="examples/condition/front_right.jpg" alt="Front right example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Front right</div>
                             <div class="example-label">Front right area</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Back left</div>
+                            <img src="examples/condition/back_left.jpg" alt="Back left example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Back left</div>
                             <div class="example-label">Back left area</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Back right</div>
+                            <img src="examples/condition/back_right.jpg" alt="Back right example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Back right</div>
                             <div class="example-label">Back right area</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Left side 1</div>
+                            <img src="examples/condition/left_side_1.jpg" alt="Left side 1 example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Left side 1</div>
                             <div class="example-label">Left side (front)</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Left side 2</div>
+                            <img src="examples/condition/left_side_2.jpg" alt="Left side 2 example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Left side 2</div>
                             <div class="example-label">Left side (rear)</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Right side 1</div>
+                            <img src="examples/condition/right_side_1.jpg" alt="Right side 1 example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Right side 1</div>
                             <div class="example-label">Right side (front)</div>
                         </div>
                         <div class="example-item">
-                            <div class="example-placeholder">Right side 2</div>
+                            <img src="examples/condition/right_side_2.jpg" alt="Right side 2 example" class="example-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="example-placeholder" style="display: none;">Right side 2</div>
                             <div class="example-label">Right side (rear)</div>
                         </div>
                     </div>
