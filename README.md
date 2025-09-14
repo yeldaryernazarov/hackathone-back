@@ -1,6 +1,5 @@
 # 🚗 Car Condition Assessment System
 
-A comprehensive AI-powered web application that analyzes car photos to assess cleanliness and condition using machine learning models. Perfect for car dealerships, rental companies, insurance assessors, and individual car owners.
 
 ## ✨ Features
 
